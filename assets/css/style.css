@@ -730,7 +730,7 @@ section {
   display: inline-block;
   text-align: center;
   border-radius: 50%;
-  max-width: 60px;
+  max-width: 70px;
   transition: all 0.3s ease-in-out;
 }
 
@@ -955,7 +955,7 @@ section {
   .info-box {
     /* img {
       padding-top: 30px;
-    } 
+    } */
   }
 
   .info-box .content {
