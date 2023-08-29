@@ -726,26 +726,17 @@ section {
   border-radius: 0px;
 }
 
-.services .icon {
-  margin: 0 auto 20px auto;
-  padding-top: 10px;
+.services img {
   display: inline-block;
   text-align: center;
   border-radius: 50%;
-  width: 60px;
-  height: 60px;
-  background: #f6e21f;
+  max-width: 60px;
   transition: all 0.3s ease-in-out;
-}
-
-.services .icon i {
-  font-size: 36px;
-  line-height: 1;
-  color: #fff;
 }
 
 .services .title {
   font-weight: 700;
+  padding-top: 10px;
   margin-bottom: 15px;
   font-size: 18px;
 }
@@ -763,10 +754,6 @@ section {
 .services .icon-box:hover .title a,
 .services .icon-box:hover .description {
   color: #fff;
-}
-
-.services .icon-box:hover .icon {
-  background: #fff;
 }
 
 .services .icon-box:hover .icon i {
@@ -968,7 +955,7 @@ section {
   .info-box {
     /* img {
       padding-top: 30px;
-    } */
+    } 
   }
 
   .info-box .content {
