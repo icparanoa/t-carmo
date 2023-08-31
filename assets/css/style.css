@@ -1414,14 +1414,14 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: linear-gradient(to right, #F153CE, #B99DE8, #FF5C25);
+  background: linear-gradient(to right, #F365C7, #A66CE4, #5F6EFB);
   padding: 0 0 30px 0;
   color: #fff;
   font-size: 14px;
 }
 
 #footer .footer-top {
-  background: linear-gradient(to right, #F153CE, #B99DE8, #FF5C25);
+  background: linear-gradient(to right, #F365C7, #A66CE4, #5F6EFB);
   border-bottom: 1px solid #000000;
   padding: 60px 0 30px 0;
 }
