@@ -33,6 +33,27 @@
 
 <body>
 
+  <!-- ======= Header ======= -->
+  <header id="header" class="d-flex align-items-center">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <div class="logo">
+        <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
+      </div>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">Quem Somos</a></li>
+          <li><a class="nav-link scrollto" href="#services">Serviços</a></li>
+          <li><a class="nav-link scrollto" href="#contact">Contato</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
   <!-- ======= Hero Section ======= -->
   <section id="hero">
     <div class="hero-container">
@@ -52,27 +73,7 @@
     </div>
   </section><!-- End Hero -->
 
-  <!-- ======= Header ======= -->
-  <header id="header" class="d-flex align-items-center">
-    <div class="container d-flex align-items-center justify-content-between">
 
-      <div class="logo">
-        <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
-      </div>
-
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="#about">Quem Somos</a></li>
-          <li><a class="nav-link scrollto" href="#services">Serviços</a></li>
-          <li><a class="nav-link scrollto" href="#portfolio">Portfolio</a></li>
-          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
-
-    </div>
-  </header><!-- End Header -->
 
   <main id="main">
 
@@ -236,17 +237,17 @@
               <div class="col-lg-6 info info-bg d-flex flex-column align-items-stretch">
                 <i class="bx bx-phone"></i>
                 <h4>Telefone</h4>
-                <p>+1 5589 55488 55<br>+1 5589 22548 64</p>
+                <p><a href="https://wa.me/5511983020396">(11) 98302-0396</a></p>
               </div>
               <div class="col-lg-6 info info-bg d-flex flex-column align-items-stretch">
-                <i class="bx bx-envelope"></i>
-                <h4>Email Us</h4>
-                <p>contact@example.com<br>info@example.com</p>
-              </div>
-              <div class="col-lg-6 info d-flex flex-column align-items-stretch">
                 <i class="bx bx-time-five"></i>
-                <h4>Working Hours</h4>
-                <p>Mon - Fri: 9AM to 5PM<br>Sunday: 9AM to 1PM</p>
+                <h4>Funcionamos</h4>
+                <p>Segunda - Sexta: 9AM to 18PM</p>
+              </div>
+              <div class="col-lg-6 info d-flex flex-column align-items-center">
+                <i class="bx bx-envelope"></i>
+                <h4>Email</h4>
+                <p><a href="mailto:thamires.carmo@carmodigitalmkt.com.br">thamires.carmo@carmodigitalmkt.com.br</a></p>
               </div>
             </div>
 
@@ -256,28 +257,53 @@
             <form action="forms/contact.php" method="post" role="form" class="php-email-form">
               <div class="row">
                 <div class="col-md-6 form-group">
-                  <label for="name">Your Name</label>
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                  <label for="name">Name</label>
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Qual seu nome?" required>
                 </div>
                 <div class="col-md-6 form-group mt-3 mt-md-0">
-                  <label for="email">Your Email</label>
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                  <label for="email">Telefone</label>
+                  <input type="tel" class="form-control" name="email" id="email" placeholder="DDD + Telefone" required>
                 </div>
               </div>
               <div class="form-group mt-3">
-                <label for="subject">Subject</label>
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+                <label for="subject">Email</label>
+                <input type="email" class="form-control" name="subject" id="subject" placeholder="Qual o seu email ?"
+                  required>
+              </div>
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <label for="name">Nome da empresa </label>
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Nome da empresa ?"
+                    required>
+                </div>
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <label for="email">Qual o seu site?</label>
+                  <input type="text" class="form-control" name="email" id="email" placeholder="Qual o seu site ?"
+                    required>
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <select class="form-control" required>
+                  <option selected disabled>Selecione o serviço em interesse:</option>
+                  <option>Identidade visual </option>
+                  <option>Criação de site</option>
+                  <option>Ecommerce</option>
+                  <option>Landing page</option>
+                  <option>Gerenciamento de Google Ads</option>
+                  <option>Gerenciamento de Meta Ads</option>
+                  <option>Gerenciamento de redes sociais orgânicas</option>
+                </select>
               </div>
               <div class="form-group mt-3">
                 <label for="message">Message</label>
-                <textarea class="form-control" name="message" rows="8" required></textarea>
+                <textarea class="form-control" name="message" rows="3" required></textarea>
               </div>
               <div class="my-3">
                 <div class="loading">Loading</div>
                 <div class="error-message"></div>
                 <div class="sent-message">Your message has been sent. Thank you!</div>
               </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
+              <div class="text-center"><button type="submit">Enviar Menssagem</button></div>
             </form>
           </div>
 
