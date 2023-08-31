@@ -1400,15 +1400,15 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #344341;
+  background: linear-gradient(to right, #F153CE, #B99DE8, #FF5C25);
   padding: 0 0 30px 0;
   color: #fff;
   font-size: 14px;
 }
 
 #footer .footer-top {
-  background: #3d4f4c;
-  border-bottom: 1px solid #4d635f;
+  background: linear-gradient(to right, #F153CE, #B99DE8, #FF5C25);
+  border-bottom: 1px solid #000000;
   padding: 60px 0 30px 0;
 }
 
@@ -1489,14 +1489,14 @@ section {
 }
 
 #footer .footer-top .footer-links ul a {
-  color: #fff;
+  color: #000000;
   transition: 0.3s;
   display: inline-block;
   line-height: 1;
 }
 
 #footer .footer-top .footer-links ul a:hover {
-  color: #40e4ca;
+  color: #49b6b1;
 }
 
 #footer .footer-top .footer-newsletter form {
@@ -1505,6 +1505,13 @@ section {
   padding: 6px 10px;
   position: relative;
   border-radius: 4;
+}
+
+#footer .footer-top .footer-newsletter img {
+  max-width:80%;
+  max-height:80%;
+  width: auto;
+  height: auto;
 }
 
 #footer .footer-top .footer-newsletter form input[type=email] {
